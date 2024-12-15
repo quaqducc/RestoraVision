@@ -1,10 +1,25 @@
-opencv-python
-numpy
-torch
 tqdm
 setuptools
-torchvision
-Pillow
-natsort
 lpips
 scikit-image
+
+# Core Python packages
+numpy
+opencv-python
+Pillow
+natsort
+
+# PyTorch and related libraries
+torch
+torchvision
+torchmetrics
+
+# Model training utilities
+tensorboard
+torch-cuda-amp
+
+# HDF5 support
+h5py
+
+# Others
+enum34
