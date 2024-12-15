@@ -57,13 +57,11 @@ Through these enhancements, FSRCNN not only improves image quality but also opti
  pip ákdaksdkas
  ```
 
- ### (Model 3)
+ ### SRGAN
  #### Model Overview  
  Some overview here
  #### How to use
- ```bash
- pip ákdaksdkas
- ```
+ Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
 ## Image Restoration
  ### (Model 4)
  #### Model Overview  
