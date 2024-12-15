@@ -52,7 +52,7 @@ Through these enhancements, FSRCNN not only improves image quality but also opti
  pip ákdaksdkas
  ```
 
-## Result
+## Results
  - Result Table of all model
  - Image test result of all model
 
