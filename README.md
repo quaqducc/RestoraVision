@@ -1,7 +1,6 @@
-# RestoraVision
 # RestoraVision: A Comprehensive System for Image Enhancement and Restoration
 
-## Mục lục
+## Contents
 1. [Overview](#Overview)
 2. [FSRCNN](#fsrcnn)
 3. [SwinIR](#swinir)
