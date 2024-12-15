@@ -59,9 +59,10 @@ Through these enhancements, FSRCNN not only improves image quality but also opti
 
  ### SRGAN
  #### Model Overview  
- Some overview here
+ - Architecture: ![Alt text](SRGAN/Report/SRGAN-Architecture.png)
+ - Details can be found in [SRGAN Report](https://github.com/quaqducc/RestoraVision/blob/main/SRGAN/Report/SRGAN%20Architecture.png)
  #### How to use
- Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
+ - Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
 ## Image Restoration
  ### (Model 4)
  #### Model Overview  
