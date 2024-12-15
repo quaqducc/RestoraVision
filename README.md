@@ -31,7 +31,7 @@ Through these enhancements, FSRCNN not only improves image quality but also opti
 #### How to use
 1. Install the required dependencies:
    ```bash
-   pip install -requirements
+   pip install -r requirements.txt
    cd FSRCNN
    ```
    Train model: run file FSRCNN-train.py with dataset on Kaggle
