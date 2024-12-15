@@ -1,0 +1,17 @@
+Image PSNR SSIM Time
+img_001.png 22.58 0.4493 2.21s
+img_002.png 25.74 0.7074 3.08s
+img_003.png 25.06 0.6081 1.98s
+img_004.png 26.00 0.5601 0.78s
+img_005.png 22.81 0.6640 0.73s
+img_006.png 32.42 0.7500 0.62s
+img_007.png 27.30 0.7752 1.37s
+img_008.png 29.55 0.8633 0.00s
+img_009.png 31.61 0.8079 0.00s
+img_010.png 26.91 0.7095 0.00s
+img_011.png 30.32 0.9117 3.13s
+img_012.png 31.12 0.8231 0.00s
+img_013.png 24.28 0.8556 2.87s
+img_014.png 26.44 0.7488 2.04s
+
+Average PSNR: 27.30, Average SSIM: 0.7310, Average Time: 1.34s
