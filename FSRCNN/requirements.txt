@@ -1,0 +1,10 @@
+opencv-python
+numpy
+torch
+tqdm
+setuptools
+torchvision
+Pillow
+natsort
+lpips
+scikit-image
