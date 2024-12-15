@@ -1,17 +1,20 @@
 # RestoraVision: A Comprehensive System for Image Enhancement and Restoration
 
 ## Contents
-1. [Overview](#Overview)
-2. [FSRCNN](#fsrcnn)
-3. [SwinIR](#swinir)
-4. [GAN](#gan)
-5. [Model 4](#model-4)
-6. [Model 5](#model-5)
-7. [Results](#results)
+1. [Overview](#overview)
+2. [Image Super-Resolution](#image-super-resolution)
+   - [SwinIR](#swinir)
+   - [FSRCNN](#fsrcnn)
+   - [SRGAN](#srgan)
+3. [Image Restoration](#image-restoration)
+   - [Model 4](#model-4)
+   - [Model 5](#model-5)
+4. [Results](#results)
 
 ## Overview
-RestoraVision is a comprehensive system for image enhancement and restoration. This project leverages five different models: SwinIR, FSRCNN, GAN, and two additional models for super-resolution (SR) and image restoration tasks. These models are designed to address various challenges in improving image quality, including upscaling resolution and recovering lost details.
-.
+RestoraVision is a comprehensive system for image enhancement and restoration. This project leverages five different models: SwinIR, FSRCNN, SRGAN, and two additional models for super-resolution (SR) and image restoration tasks. These models are designed to address various challenges in improving image quality, including upscaling resolution and recovering lost details.
+
+---
 
 ## FSRCNN
 ### Model Overview
