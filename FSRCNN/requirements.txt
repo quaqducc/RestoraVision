@@ -1,3 +1,4 @@
+# Additional utilities
 tqdm
 setuptools
 lpips
@@ -20,6 +21,3 @@ torch-cuda-amp
 
 # HDF5 support
 h5py
-
-# Others
-enum34
