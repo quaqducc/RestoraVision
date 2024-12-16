@@ -25,7 +25,7 @@ The feature extraction in FSRCNN is the first and crucial step, where the networ
 The components of FSRCNN include feature extraction, a shrinking layer, non-linear mapping, an expanding layer, and a deconvolution layer. These layers interact to produce higher-resolution images from the initial input data. The design of FSRCNN has proven effective, particularly when it comes to conserving energy and minimizing computational complexity.
 Through these enhancements, FSRCNN not only improves image quality but also optimizes processing speed, making it a compelling choice for applications demanding super-resolution.
 
-![Alt text](FSRCNN/Report/FSRCNN-super-resolution-model.png)
+![Alt text](Image Super Resolution/FSRCNN/Report/FSRCNN-super-resolution-model.png)
 
 
 #### How to use
@@ -51,7 +51,7 @@ Through these enhancements, FSRCNN not only improves image quality but also opti
 
  ### SwinIR
  #### Model Overview  
- ![Alt text](SwinIR/figs/design.png)
+ ![Alt text](Image Super Resolution/SwinIR/figs/design.png)
 SwinIR comprises three main components: shallow feature extraction, deep feature extraction, and high-quality image reconstruction. The shallow feature extraction module uses a convolutional layer to capture low-frequency information, which is directly passed to the reconstruction module. The deep feature extraction module utilizes residual Swin Transformer blocks (RSTBs), incorporating Swin Transformer layers for local attention and cross-window interactions. A convolutional layer at the end of each block enhances features, while  residual connections enable effective feature aggregation. Finally, the reconstruction module fuses shallow and deep features to produce high-quality images. Compared to traditional CNN-based models, SwinIR offers several advantages: (1) content-based interactions between image content and attention weights, functioning similarly to spatially varying convolutions; (2) the ability to model long-range dependencies through the shifted window mechanism; and (3) superior performance with fewer parameters. This combination of benefits allows SwinIR to outperform existing methods for image super-resolution while maintaining efficiency.
  #### How to use
  ```bash
@@ -62,8 +62,8 @@ The results will be located in the 'output' directory
 
  ### SRGAN
  #### Model Overview  
- - Architecture: ![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/SRGAN/Report/SRGAN%20Architecture.png)
- - Details can be found in [SRGAN Report](https://github.com/quaqducc/RestoraVision/blob/main/SRGAN/Report/SRGAN%20-%2020225467.docx)
+ - Architecture: ![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Super%20Resolution/SRGAN/Report/SRGAN%20Architecture.png)
+ - Details can be found in [SRGAN Report](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Super%20Resolution/SRGAN/Report/SRGAN%20-%2020225467.docx)
  #### How to use
  - Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
 
@@ -74,7 +74,7 @@ The results will be located in the 'output' directory
 Although there have been significant advances in the field of image restoration recently, the system complexity of the state-of-the-art (SOTA) methods is increasing as well, which may hinder the convenient analysis and comparison of methods.
 NAFNet(Nonlinear Activation Free Network) was developed by Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, and Jian Sun. To further simplify the baseline, they reveal that the nonlinear activation functions, e.g. Sigmoid, ReLU, GELU, Softmax, etc. are not necessary: they could be replaced by multiplication or removed.  
 Instead, it achieves superior results through simpler methods, such as multiplication or outright removal of these functions.
-- Architecture: ![Alt text](NAFNet/figures/NAFSSR_arch.jpg)
+- Architecture: ![Alt text](Image Deblurring/NAFNet/figures/NAFSSR_arch.jpg)
 #### How to use
 1. Install the required dependencies:
    ```bash
