@@ -25,7 +25,7 @@ The feature extraction in FSRCNN is the first and crucial step, where the networ
 The components of FSRCNN include feature extraction, a shrinking layer, non-linear mapping, an expanding layer, and a deconvolution layer. These layers interact to produce higher-resolution images from the initial input data. The design of FSRCNN has proven effective, particularly when it comes to conserving energy and minimizing computational complexity.
 Through these enhancements, FSRCNN not only improves image quality but also optimizes processing speed, making it a compelling choice for applications demanding super-resolution.
 
-![Alt text](Image Super Resolution/FSRCNN/Report/FSRCNN-super-resolution-model.png)
+![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Super%20Resolution/FSRCNN/Report/FSRCNN-super-resolution-model.png)
 
 
 #### How to use
