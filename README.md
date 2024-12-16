@@ -6,8 +6,8 @@
    - [SwinIR](#swinir)
    - [FSRCNN](#fsrcnn)
    - [SRGAN](#srgan)
-3. [Image Restoration](#image-restoration)
-   - [Model 4](#model-4)
+3. [Image Deblurring](#image-deblurring)
+   - [NAFNet](#nafnet)
    - [Model 5](#model-5)
 4. [Results](#results)
 
