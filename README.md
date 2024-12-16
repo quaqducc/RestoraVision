@@ -74,7 +74,7 @@ The results will be located in the 'output' directory
  - Architecture: ![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Deblurring/DiffIR-Deblur/figs/DiffIR-FullArch.png)
  - Details can be found in section 3.3 of our report [Report](RestoraVision\Report\Final-Deep-Learning-Project-2024-1.pdf)
  #### How to use
- - Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
+ - Details can be found in [Readme.md](https://github.com/quaqducc/RestoraVision/tree/main/Image%20Super%20Resolution/DiffIR-SR#readme)
 
 
 ## Image Deblurring
@@ -105,7 +105,7 @@ Instead, it achieves superior results through simpler methods, such as multiplic
  - Architecture: ![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Deblurring/DiffIR-Deblur/figs/DiffIR-FullArch.png)
  - Details can be found in section 3.3 of our report [Report](RestoraVision\Report\Final-Deep-Learning-Project-2024-1.pdf)
  #### How to use
- - Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
+ - Details can be found in [Readme.md](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Deblurring/DiffIR-Deblur/README.md)
 
 ## Results
 ### Result Table of all model
