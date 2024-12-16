@@ -49,13 +49,16 @@ Through these enhancements, FSRCNN not only improves image quality but also opti
                   --result-folder "Your output path"
    ```
 
- ### (Model 2)
+ ### SwinIR
  #### Model Overview  
- Some overview here
+ ![Alt text](SwinIR/figs/design.png)
+SwinIR comprises three main components: shallow feature extraction, deep feature extraction, and high-quality image reconstruction. The shallow feature extraction module uses a convolutional layer to capture low-frequency information, which is directly passed to the reconstruction module. The deep feature extraction module utilizes residual Swin Transformer blocks (RSTBs), incorporating Swin Transformer layers for local attention and cross-window interactions. A convolutional layer at the end of each block enhances features, while  residual connections enable effective feature aggregation. Finally, the reconstruction module fuses shallow and deep features to produce high-quality images. Compared to traditional CNN-based models, SwinIR offers several advantages: (1) content-based interactions between image content and attention weights, functioning similarly to spatially varying convolutions; (2) the ability to model long-range dependencies through the shifted window mechanism; and (3) superior performance with fewer parameters. This combination of benefits allows SwinIR to outperform existing methods for image super-resolution while maintaining efficiency.
  #### How to use
  ```bash
- pip ákdaksdkas
+cd SwinIR
+python infer.py --image_path your/path/to/image
  ```
+The results will be located in the 'output' directory
 
  ### SRGAN
  #### Model Overview  
@@ -81,8 +84,13 @@ Through these enhancements, FSRCNN not only improves image quality but also opti
  ```
 
 ## Results
- - Result Table of all model
- - Image test result of all model
+### Result Table of all model
+### Image test result of all model
+#### Deblur result:
+ ![Alt text](Result/Deblur.png)
+#### Super resolution result:
+ ![Alt text](Result/SR.png)
+
 
 
 
