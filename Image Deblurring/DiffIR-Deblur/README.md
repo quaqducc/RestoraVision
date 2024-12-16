@@ -48,7 +48,7 @@ you should encounter the following error:
 ModuleNotFoundError: No module named 'torchvision.transforms.functional tensor'
 ```
 The error can look somehow like this:
-![Alt text](RestoraVision\Image Deblurring\DiffIR-Deblur\figs\infer-instruction.png)
+![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Deblurring/DiffIR-Deblur/figs/infer-instruction.png)
 ### **Cause**
 This error occurs due to an outdated import statement in `basicsr/data/degradations.py`.
 
