@@ -6,13 +6,14 @@
    - [SwinIR](#swinir)
    - [FSRCNN](#fsrcnn)
    - [SRGAN](#srgan)
+   - [DiffIR-SR](#diffir-sr)
 3. [Image Deblurring](#image-deblurring)
    - [NAFNet](#nafnet)
-   - [Model 5](#model-5)
+   - [DiffIR-Deblur](#diffir-deblur)
 4. [Results](#results)
 
 ## Overview
-RestoraVision is a comprehensive system for image enhancement and restoration. This project leverages five different models: SwinIR, FSRCNN, SRGAN, and two additional models for super-resolution (SR) and image restoration tasks. These models are designed to address various challenges in improving image quality, including upscaling resolution and recovering lost details.
+RestoraVision is a comprehensive system for image enhancement and restoration. This project leverages five different models: SwinIR, FSRCNN, SRGAN, DiffIR and NAFNet. These models are designed to address various challenges in improving image quality, including upscaling resolution and recovering lost details.
 
 ---
 
@@ -66,6 +67,15 @@ The results will be located in the 'output' directory
  - Details can be found in [SRGAN Report](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Super%20Resolution/SRGAN/Report/SRGAN%20-%2020225467.docx)
  #### How to use
  - Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
+
+   
+ ### DiffIR-SR
+ #### Model Overview  
+ - Architecture: ![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Super%20Resolution/SRGAN/Report/SRGAN%20Architecture.png)
+ - Details can be found in [SRGAN Report](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Super%20Resolution/SRGAN/Report/SRGAN%20-%2020225467.docx)
+ #### How to use
+ - Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
+
 
 ## Image Deblurring
 ![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Deblurring/NAFNet/figures/deblur.gif)
