@@ -66,14 +66,29 @@ The results will be located in the 'output' directory
  - Details can be found in [SRGAN Report](https://github.com/quaqducc/RestoraVision/blob/main/SRGAN/Report/SRGAN%20-%2020225467.docx)
  #### How to use
  - Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
-## Image Restoration
- ### (Model 4)
- #### Model Overview  
- Some overview here
- #### How to use
- ```bash
- pip ákdaksdkas
- ```
+
+## Image Deblurring
+![Alt text](NAFNet/figures/deblur.gif)
+### NAFNet
+#### Model Overview  
+Although there have been significant advances in the field of image restoration recently, the system complexity of the state-of-the-art (SOTA) methods is increasing as well, which may hinder the convenient analysis and comparison of methods.
+NAFNet(Nonlinear Activation Free Network) was developed by Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, and Jian Sun. To further simplify the baseline, they reveal that the nonlinear activation functions, e.g. Sigmoid, ReLU, GELU, Softmax, etc. are not necessary: they could be replaced by multiplication or removed.  
+Instead, it achieves superior results through simpler methods, such as multiplication or outright removal of these functions.
+- Architecture: ![Alt text](NAFNet/figures/NAFSSR_arch.jpg)
+#### How to use
+1. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   cd NAFNet
+   ```
+2. Install the pretrain model to the ./experiments/pretrained_models directory [NAFNet PreTrain](https://drive.google.com/file/d/1bTowGIb_hKX5laXjDA55CJsn9yLJwFtp/view)
+
+3. Upload images you want to deblur in the ./upload/input directory
+
+4. Run the inference.py file and the results will be shown in ./upload/output directory
+   ```bash
+   python inference.py
+   ```
 
  ### (Model 5)
  #### Model Overview  
