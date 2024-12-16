@@ -71,8 +71,8 @@ The results will be located in the 'output' directory
    
  ### DiffIR-SR
  #### Model Overview  
- - Architecture: ![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Super%20Resolution/SRGAN/Report/SRGAN%20Architecture.png)
- - Details can be found in [SRGAN Report](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Super%20Resolution/SRGAN/Report/SRGAN%20-%2020225467.docx)
+ - Architecture: ![Alt text](RestoraVision\Image Deblurring\DiffIR-Deblur\figs\DiffIR-FullArch.png)
+ - Details can be found in section 3.3 of our report [Report](RestoraVision\Report\Final-Deep-Learning-Project-2024-1.pdf)
  #### How to use
  - Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
 
@@ -100,13 +100,12 @@ Instead, it achieves superior results through simpler methods, such as multiplic
    python inference.py
    ```
 
- ### (Model 5)
+ ### DiffIR-Deblur
  #### Model Overview  
- Some overview here
+ - Architecture: ![Alt text](RestoraVision\Image Deblurring\DiffIR-Deblur\figs\DiffIR-FullArch.png)
+ - Details can be found in section 3.3 of our report [Report](RestoraVision\Report\Final-Deep-Learning-Project-2024-1.pdf)
  #### How to use
- ```bash
- pip ákdaksdkas
- ```
+ - Details can be found in [Readme.md](https://github.com/AnKun10/SRGAN-from-scratch/blob/main/README.md)
 
 ## Results
 ### Result Table of all model
