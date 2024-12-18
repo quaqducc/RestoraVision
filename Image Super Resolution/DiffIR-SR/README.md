@@ -34,7 +34,7 @@ ModuleNotFoundError: No module named 'torchvision.transforms.functional_tensor'
 ```
 
 The error can look somehow like this:
-![Alt text](RestoraVision\Image Super Resolution\DiffIR-SR\figs\infer-instruction.png)
+![Alt text](https://github.com/quaqducc/RestoraVision/blob/main/Image%20Super%20Resolution/DiffIR-SR/figs/infer-instruction.png)
 
 This error occurs because line 8 in the file `degradations.py` in the `basicsr\data\` package has an outdated import statement. To fix it:
 
