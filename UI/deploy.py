@@ -11,7 +11,7 @@ import time
 
 # Import model here
 from Image_Super_Resolution.SwinIR.models.network_swinir import SwinIR
-
+from Image_Super_Resolution.FSRCNN.models import FSRCNN
 
 
 
